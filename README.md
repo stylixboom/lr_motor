@@ -49,16 +49,20 @@ L       X       X       Stop
 
 # Running with TB6612FNG
 Wiring diagram for TB6612FNG
-[Wiring diagram for TB6612FNG](wiring_diagram_TB6612FNG.PNG)
+![Wiring diagram for TB6612FNG](wiring_diagram_TB6612FNG.PNG)
 
 ## How to run
 `$ sudo node app_t.js`
 
 # Running with L293D
 Wiring diagram for L293D
-[Wiring diagram for L293D](wiring_diagram_L293D.PNG)
+![Wiring diagram for L293D](wiring_diagram_L293D.PNG)
 
 ## How to run
 `$ sudo node app_l.js`
 
 Node: 'sudo' is needed if you are running as a different user, not root.
+
+
+Author: Siriwat Kasamwattanarote
+E-mail: siriwat@live.jp
