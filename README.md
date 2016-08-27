@@ -21,9 +21,19 @@ Node:
 - TB6612FNG is more efficient, but more expansive (10$), and you will need a solder.
 - L293D is much cheaper ($0.6) and easier to be used with a breadboard.
 
+# Running with TB6612FNG
 Wiring diagram for TB6612FNG
-[![Wiring diagram for TB6612FNG](wiring_diagram.png)]
+[![Wiring diagram for TB6612FNG](wiring_diagram_TB6612FNG.png)]
 
 ## How to run
-`$ sudo node app.js`
+`$ sudo node app_t.js`
+
+# Running with L293D
+
+Wiring diagram for L293D
+[![Wiring diagram for L293D](wiring_diagram_L293D.png)]
+
+## How to run
+`$ sudo node app_l.js`
+
 Node: 'sudo' is needed if you are running as a different user, not root.
