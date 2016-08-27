@@ -22,3 +22,5 @@ Node:
 ## How to run
 `$ sudo node app.js`
 Node: 'sudo' is needed if you are running as a different user, not root.
+
+[![LR-Motor control](https://youtu.be/_WbnUgH4qKM)](https://youtu.be/_WbnUgH4qKM "LR-Motor control")
