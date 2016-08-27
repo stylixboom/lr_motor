@@ -49,14 +49,14 @@ L       X       X       Stop
 
 # Running with TB6612FNG
 Wiring diagram for TB6612FNG
-[Wiring diagram for TB6612FNG](wiring_diagram.png)
+[Wiring diagram for TB6612FNG](wiring_diagram_TB6612FNG.png)
 
 ## How to run
 `$ sudo node app_t.js`
 
 # Running with L293D
 Wiring diagram for L293D
-[![Wiring diagram for L293D](wiring_diagram_L293D.png)]
+[Wiring diagram for L293D](wiring_diagram_L293D.png)]
 
 ## How to run
 `$ sudo node app_l.js`
