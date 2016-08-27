@@ -15,7 +15,7 @@ Requirement
 
 This experiment support two different motor drivers.
 - Toshiba - TB6612FNG
-- Texus Instrument - L293D
+- Texas Instruments - L293D
 
 Node:
 - TB6612FNG is more efficient, but more expansive (10$), and you will need a solder.
