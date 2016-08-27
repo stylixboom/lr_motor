@@ -1,6 +1,8 @@
 # lr_motor
 Left-right motor control with Node.js on a GPIO of the Raspberry Pi.
 
+[![LR-Motor control](control.jpg)](https://youtu.be/_WbnUgH4qKM "LR-Motor control")
+
 This project is to learn how to control dual-motor (left-right) by using Raspberry Pi.
 THe code provided here is written in Node.js, which require a package of
 - 'pigpio' is to access GPIO port on the Raspberry Pi.
@@ -22,5 +24,3 @@ Node:
 ## How to run
 `$ sudo node app.js`
 Node: 'sudo' is needed if you are running as a different user, not root.
-
-[![LR-Motor control](control.jpg)](https://youtu.be/_WbnUgH4qKM "LR-Motor control")
