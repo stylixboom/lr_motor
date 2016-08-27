@@ -1,0 +1,33 @@
+{
+  "name": "lr_motor",
+  "version": "1.0.0",
+  "description": "Left-right motor control with Node.js on a GPIO for the Raspberry Pi",
+  "main": "app.js",
+  "dependencies": {
+    "pigpio": "^0.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "trst.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stylixboom/lr_motor.git"
+  },
+  "keywords": [
+    "Motor",
+    "control",
+    "Raspberry",
+    "Pi",
+    "L293D",
+    "TB6612FNG",
+    "Node.js",
+    "GPIO"
+  ],
+  "author": "Siriwat K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stylixboom/lr_motor/issues"
+  },
+  "homepage": "https://github.com/stylixboom/lr_motor#readme"
+}

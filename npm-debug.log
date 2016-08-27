@@ -1,0 +1,822 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'pigpio',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of D:\Dropbox\MyProjects\PiBot\codes\lr_motor\package.json
+5 verbose readDependencies loading dependencies from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\package.json
+6 silly cache add args [ 'pigpio@^0.3.4', null ]
+7 verbose cache add spec pigpio@^0.3.4
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'pigpio@^0.3.4',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'pigpio',
+8 silly cache add   rawSpec: '^0.3.4',
+8 silly cache add   spec: '>=0.3.4 <0.4.0',
+8 silly cache add   type: 'range' }
+9 silly addNamed pigpio@>=0.3.4 <0.4.0
+10 verbose addNamed ">=0.3.4 <0.4.0" is a valid semver range for pigpio
+11 silly addNameRange { name: 'pigpio', range: '>=0.3.4 <0.4.0', hasData: false }
+12 silly mapToRegistry name pigpio
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'pigpio',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'pigpio',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/pigpio
+17 verbose addNameRange registry:https://registry.npmjs.org/pigpio not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/pigpio
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 3:12:15 PM
+21 verbose request id 1ec4c5911446b586
+22 http request GET https://registry.npmjs.org/pigpio
+23 http 200 https://registry.npmjs.org/pigpio
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"EBNL67DPH4FWHMPBF3AK0UQJZ"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '6038',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Sat, 27 Aug 2016 06:12:16 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-nrt6131-NRT',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1472278335.801141,VS0,VE708',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"EBNL67DPH4FWHMPBF3AK0UQJZ"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '6038',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Sat, 27 Aug 2016 06:12:16 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-nrt6131-NRT',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1472278335.801141,VS0,VE708',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving pigpio to C:\Users\k_sir\AppData\Roaming\npm-cache\registry.npmjs.org\pigpio\.cache.json
+27 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly addNameRange number 2 { name: 'pigpio', range: '>=0.3.4 <0.4.0', hasData: true }
+29 silly addNameRange versions [ 'pigpio',
+29 silly addNameRange   [ '0.0.0',
+29 silly addNameRange     '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.0.8',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.3',
+29 silly addNameRange     '0.3.4' ] ]
+30 silly addNamed pigpio@0.3.4
+31 verbose addNamed "0.3.4" is a plain semver version for pigpio
+32 silly mapToRegistry name pigpio
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'pigpio',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'pigpio',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/pigpio
+37 verbose addRemoteTarball https://registry.npmjs.org/pigpio/-/pigpio-0.3.4.tgz not in flight; adding
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/pigpio/-/pigpio-0.3.4.tgz',
+38 verbose addRemoteTarball   '74dc18bda9f7425ed520e11fa0b9d35ac5731e38' ]
+39 info retry fetch attempt 1 at 3:12:16 PM
+40 info attempt registry request try #1 at 3:12:16 PM
+41 http fetch GET https://registry.npmjs.org/pigpio/-/pigpio-0.3.4.tgz
+42 http fetch 200 https://registry.npmjs.org/pigpio/-/pigpio-0.3.4.tgz
+43 silly fetchAndShaCheck shasum 74dc18bda9f7425ed520e11fa0b9d35ac5731e38
+44 verbose addTmpTarball C:\Users\k_sir\AppData\Local\Temp\npm-9432-b7010514\registry.npmjs.org\pigpio\-\pigpio-0.3.4.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for pigpio@0.3.4
+46 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+47 silly cache afterAdd pigpio@0.3.4
+48 verbose afterAdd C:\Users\k_sir\AppData\Roaming\npm-cache\pigpio\0.3.4\package\package.json not in flight; writing
+49 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+50 verbose afterAdd C:\Users\k_sir\AppData\Roaming\npm-cache\pigpio\0.3.4\package\package.json written
+51 silly install resolved [ { name: 'pigpio',
+51 silly install resolved     version: '0.3.4',
+51 silly install resolved     description: 'Fast GPIO, PWM, servo control, state change notification, and interrupt handling on the Raspberry Pi',
+51 silly install resolved     main: 'pigpio.js',
+51 silly install resolved     directories: { example: 'example', test: 'test' },
+51 silly install resolved     scripts:
+51 silly install resolved      { test: 'echo "Tests can only be run manually from the command line." && exit 1',
+51 silly install resolved        install: 'node-gyp rebuild' },
+51 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/fivdi/pigpio.git' },
+51 silly install resolved     engines: { node: '>=0.10.0' },
+51 silly install resolved     dependencies: { bindings: '~1.2.1', nan: '~2.3.2' },
+51 silly install resolved     keywords: [ 'gpio', 'pwm', 'servo', 'interrupt', 'raspberry', 'pi' ],
+51 silly install resolved     author: { name: 'fivdi' },
+51 silly install resolved     license: 'MIT',
+51 silly install resolved     gypfile: true,
+51 silly install resolved     gitHead: '75136f6b8ccaf7e8d0f98ca072b0570acf5e4553',
+51 silly install resolved     bugs: { url: 'https://github.com/fivdi/pigpio/issues' },
+51 silly install resolved     homepage: 'https://github.com/fivdi/pigpio#readme',
+51 silly install resolved     _id: 'pigpio@0.3.4',
+51 silly install resolved     _shasum: '74dc18bda9f7425ed520e11fa0b9d35ac5731e38',
+51 silly install resolved     _from: 'pigpio@>=0.3.4 <0.4.0',
+51 silly install resolved     _npmVersion: '2.15.0',
+51 silly install resolved     _nodeVersion: '0.10.44',
+51 silly install resolved     _npmUser: { name: 'fivdi', email: 'fivdiweb@gmail.com' },
+51 silly install resolved     maintainers: [ [Object] ],
+51 silly install resolved     dist:
+51 silly install resolved      { shasum: '74dc18bda9f7425ed520e11fa0b9d35ac5731e38',
+51 silly install resolved        tarball: 'https://registry.npmjs.org/pigpio/-/pigpio-0.3.4.tgz' },
+51 silly install resolved     _npmOperationalInternal:
+51 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+51 silly install resolved        tmp: 'tmp/pigpio-0.3.4.tgz_1463333084480_0.0549623800907284' },
+51 silly install resolved     _resolved: 'https://registry.npmjs.org/pigpio/-/pigpio-0.3.4.tgz' } ]
+52 info install pigpio@0.3.4 into D:\Dropbox\MyProjects\PiBot\codes\lr_motor
+53 info installOne pigpio@0.3.4
+54 verbose installOne of pigpio to D:\Dropbox\MyProjects\PiBot\codes\lr_motor not in flight; installing
+55 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+56 verbose lock using C:\Users\k_sir\AppData\Roaming\npm-cache\_locks\pigpio-a02031a627f779ba.lock for D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+57 silly install write writing pigpio 0.3.4 to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+58 verbose unbuild node_modules\pigpio
+59 silly gentlyRm D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio is being purged from base D:\Dropbox\MyProjects\PiBot\codes\lr_motor
+60 verbose gentlyRm don't care about contents; nuking D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+61 verbose tar unpack C:\Users\k_sir\AppData\Roaming\npm-cache\pigpio\0.3.4\package.tgz
+62 verbose tar unpacking to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+63 silly gentlyRm D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio is being purged
+64 verbose gentlyRm don't care about contents; nuking D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+65 silly gunzTarPerm modes [ '777', '666' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+72 silly gunzTarPerm extractEntry LICENSE
+73 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+74 silly gunzTarPerm extractEntry pigpio.js
+75 silly gunzTarPerm modified mode [ 'pigpio.js', 436, 438 ]
+76 silly gunzTarPerm extractEntry History.md
+77 silly gunzTarPerm modified mode [ 'History.md', 436, 438 ]
+78 silly gunzTarPerm extractEntry example/alert.js
+79 silly gunzTarPerm modified mode [ 'example/alert.js', 436, 438 ]
+80 silly gunzTarPerm extractEntry example/blinky.js
+81 silly gunzTarPerm modified mode [ 'example/blinky.js', 436, 438 ]
+82 silly gunzTarPerm extractEntry example/gpio-info.js
+83 silly gunzTarPerm modified mode [ 'example/gpio-info.js', 436, 438 ]
+84 silly gunzTarPerm extractEntry example/light-switch.js
+85 silly gunzTarPerm modified mode [ 'example/light-switch.js', 436, 438 ]
+86 silly gunzTarPerm extractEntry example/pulse-led.js
+87 silly gunzTarPerm modified mode [ 'example/pulse-led.js', 436, 438 ]
+88 silly gunzTarPerm extractEntry example/servo.js
+89 silly gunzTarPerm modified mode [ 'example/servo.js', 436, 438 ]
+90 silly gunzTarPerm extractEntry example/pigpio.png
+91 silly gunzTarPerm modified mode [ 'example/pigpio.png', 436, 438 ]
+92 silly gunzTarPerm extractEntry test/alert-pwm-measurement.js
+93 silly gunzTarPerm modified mode [ 'test/alert-pwm-measurement.js', 436, 438 ]
+94 silly gunzTarPerm extractEntry test/do-nothing.js
+95 silly gunzTarPerm modified mode [ 'test/do-nothing.js', 436, 438 ]
+96 silly gunzTarPerm extractEntry test/gpio-mode.js
+97 silly gunzTarPerm modified mode [ 'test/gpio-mode.js', 436, 438 ]
+98 silly gunzTarPerm extractEntry test/gpio-numbers.js
+99 silly gunzTarPerm modified mode [ 'test/gpio-numbers.js', 436, 438 ]
+100 silly gunzTarPerm extractEntry test/isr-enable-disable.js
+101 silly gunzTarPerm modified mode [ 'test/isr-enable-disable.js', 436, 438 ]
+102 silly gunzTarPerm extractEntry test/digital-write-performance.js
+103 silly gunzTarPerm modified mode [ 'test/digital-write-performance.js', 436, 438 ]
+104 silly gunzTarPerm extractEntry test/alert-trigger-pulse-measurement.js
+105 silly gunzTarPerm modified mode [ 'test/alert-trigger-pulse-measurement.js', 436, 438 ]
+106 silly gunzTarPerm extractEntry test/isr-timeouts-2.js
+107 silly gunzTarPerm modified mode [ 'test/isr-timeouts-2.js', 436, 438 ]
+108 silly gunzTarPerm extractEntry test/isr-timeouts.js
+109 silly gunzTarPerm modified mode [ 'test/isr-timeouts.js', 436, 438 ]
+110 silly gunzTarPerm extractEntry test/light-switch.js
+111 silly gunzTarPerm modified mode [ 'test/light-switch.js', 436, 438 ]
+112 silly gunzTarPerm extractEntry test/notifier-leak-check.js
+113 silly gunzTarPerm modified mode [ 'test/notifier-leak-check.js', 436, 438 ]
+114 silly gunzTarPerm extractEntry test/digital-read-performance.js
+115 silly gunzTarPerm modified mode [ 'test/digital-read-performance.js', 436, 438 ]
+116 silly gunzTarPerm extractEntry test/notifier-pwm.js
+117 silly gunzTarPerm modified mode [ 'test/notifier-pwm.js', 436, 438 ]
+118 silly gunzTarPerm extractEntry test/servo-control.js
+119 silly gunzTarPerm modified mode [ 'test/servo-control.js', 436, 438 ]
+120 silly gunzTarPerm extractEntry test/notifier-stress.js
+121 silly gunzTarPerm modified mode [ 'test/notifier-stress.js', 436, 438 ]
+122 silly gunzTarPerm extractEntry test/blinky.js
+123 silly gunzTarPerm modified mode [ 'test/blinky.js', 436, 438 ]
+124 silly gunzTarPerm extractEntry test/notifier.js
+125 silly gunzTarPerm modified mode [ 'test/notifier.js', 436, 438 ]
+126 silly gunzTarPerm extractEntry test/blinky-pwm.js
+127 silly gunzTarPerm modified mode [ 'test/blinky-pwm.js', 436, 438 ]
+128 silly gunzTarPerm extractEntry test/pull-up-down.js
+129 silly gunzTarPerm modified mode [ 'test/pull-up-down.js', 436, 438 ]
+130 silly gunzTarPerm extractEntry test/banked-leds.js
+131 silly gunzTarPerm modified mode [ 'test/banked-leds.js', 436, 438 ]
+132 silly gunzTarPerm extractEntry test/pulse-led.js
+133 silly gunzTarPerm modified mode [ 'test/pulse-led.js', 436, 438 ]
+134 silly gunzTarPerm extractEntry test/alert.js
+135 silly gunzTarPerm modified mode [ 'test/alert.js', 436, 438 ]
+136 silly gunzTarPerm extractEntry test/pwm.js
+137 silly gunzTarPerm modified mode [ 'test/pwm.js', 436, 438 ]
+138 silly gunzTarPerm extractEntry test/isr-multiple-sources.js
+139 silly gunzTarPerm modified mode [ 'test/isr-multiple-sources.js', 436, 438 ]
+140 silly gunzTarPerm extractEntry test/trigger-led.js
+141 silly gunzTarPerm modified mode [ 'test/trigger-led.js', 436, 438 ]
+142 silly gunzTarPerm extractEntry test/isr-performance.js
+143 silly gunzTarPerm modified mode [ 'test/isr-performance.js', 436, 438 ]
+144 silly gunzTarPerm extractEntry test/run-tests
+145 silly gunzTarPerm modified mode [ 'test/run-tests', 509, 511 ]
+146 silly gunzTarPerm extractEntry test/c-interface/blinky.js
+147 silly gunzTarPerm modified mode [ 'test/c-interface/blinky.js', 436, 438 ]
+148 silly gunzTarPerm extractEntry test/c-interface/do-nothing.js
+149 silly gunzTarPerm modified mode [ 'test/c-interface/do-nothing.js', 436, 438 ]
+150 silly gunzTarPerm extractEntry test/c-interface/gpio-write-performance.js
+151 silly gunzTarPerm modified mode [ 'test/c-interface/gpio-write-performance.js', 436, 438 ]
+152 silly gunzTarPerm extractEntry test/c-interface/irq-dynamic.js
+153 silly gunzTarPerm modified mode [ 'test/c-interface/irq-dynamic.js', 436, 438 ]
+154 silly gunzTarPerm extractEntry test/c-interface/irq-handle-2-inputs.js
+155 silly gunzTarPerm modified mode [ 'test/c-interface/irq-handle-2-inputs.js', 436, 438 ]
+156 silly gunzTarPerm extractEntry test/c-interface/irq-performance.js
+157 silly gunzTarPerm modified mode [ 'test/c-interface/irq-performance.js', 436, 438 ]
+158 silly gunzTarPerm extractEntry test/c-interface/irq-watch-unwatch.js
+159 silly gunzTarPerm modified mode [ 'test/c-interface/irq-watch-unwatch.js', 436, 438 ]
+160 silly gunzTarPerm extractEntry test/c-interface/light-switch.js
+161 silly gunzTarPerm modified mode [ 'test/c-interface/light-switch.js', 436, 438 ]
+162 silly gunzTarPerm extractEntry test/c-interface/pwm-pulse-10-leds.js
+163 silly gunzTarPerm modified mode [ 'test/c-interface/pwm-pulse-10-leds.js', 436, 438 ]
+164 silly gunzTarPerm extractEntry test/c-interface/run-tests
+165 silly gunzTarPerm modified mode [ 'test/c-interface/run-tests', 509, 511 ]
+166 silly gunzTarPerm extractEntry binding.gyp
+167 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 438 ]
+168 silly gunzTarPerm extractEntry src/pigpio.cc
+169 silly gunzTarPerm modified mode [ 'src/pigpio.cc', 436, 438 ]
+170 silly gunzTarPerm extractEntry doc/configuration.md
+171 silly gunzTarPerm modified mode [ 'doc/configuration.md', 436, 438 ]
+172 silly gunzTarPerm extractEntry doc/gpio.md
+173 silly gunzTarPerm modified mode [ 'doc/gpio.md', 436, 438 ]
+174 silly gunzTarPerm extractEntry doc/gpiobank.md
+175 silly gunzTarPerm modified mode [ 'doc/gpiobank.md', 436, 438 ]
+176 silly gunzTarPerm extractEntry doc/notifier.md
+177 silly gunzTarPerm modified mode [ 'doc/notifier.md', 436, 438 ]
+178 verbose write writing to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\package.json
+179 info preinstall pigpio@0.3.4
+180 verbose readDependencies loading dependencies from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\package.json
+181 silly prepareForInstallMany adding bindings@~1.2.1 from pigpio dependencies
+182 silly prepareForInstallMany adding nan@~2.3.2 from pigpio dependencies
+183 verbose readDependencies loading dependencies from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\package.json
+184 silly cache add args [ 'bindings@~1.2.1', null ]
+185 verbose cache add spec bindings@~1.2.1
+186 silly cache add parsed spec Result {
+186 silly cache add   raw: 'bindings@~1.2.1',
+186 silly cache add   scope: null,
+186 silly cache add   name: 'bindings',
+186 silly cache add   rawSpec: '~1.2.1',
+186 silly cache add   spec: '>=1.2.1 <1.3.0',
+186 silly cache add   type: 'range' }
+187 silly addNamed bindings@>=1.2.1 <1.3.0
+188 verbose addNamed ">=1.2.1 <1.3.0" is a valid semver range for bindings
+189 silly addNameRange { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: false }
+190 silly mapToRegistry name bindings
+191 silly mapToRegistry using default registry
+192 silly mapToRegistry registry https://registry.npmjs.org/
+193 silly mapToRegistry data Result {
+193 silly mapToRegistry   raw: 'bindings',
+193 silly mapToRegistry   scope: null,
+193 silly mapToRegistry   name: 'bindings',
+193 silly mapToRegistry   rawSpec: '',
+193 silly mapToRegistry   spec: 'latest',
+193 silly mapToRegistry   type: 'tag' }
+194 silly mapToRegistry uri https://registry.npmjs.org/bindings
+195 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+196 silly cache add args [ 'nan@~2.3.2', null ]
+197 verbose cache add spec nan@~2.3.2
+198 silly cache add parsed spec Result {
+198 silly cache add   raw: 'nan@~2.3.2',
+198 silly cache add   scope: null,
+198 silly cache add   name: 'nan',
+198 silly cache add   rawSpec: '~2.3.2',
+198 silly cache add   spec: '>=2.3.2 <2.4.0',
+198 silly cache add   type: 'range' }
+199 silly addNamed nan@>=2.3.2 <2.4.0
+200 verbose addNamed ">=2.3.2 <2.4.0" is a valid semver range for nan
+201 silly addNameRange { name: 'nan', range: '>=2.3.2 <2.4.0', hasData: false }
+202 silly mapToRegistry name nan
+203 silly mapToRegistry using default registry
+204 silly mapToRegistry registry https://registry.npmjs.org/
+205 silly mapToRegistry data Result {
+205 silly mapToRegistry   raw: 'nan',
+205 silly mapToRegistry   scope: null,
+205 silly mapToRegistry   name: 'nan',
+205 silly mapToRegistry   rawSpec: '',
+205 silly mapToRegistry   spec: 'latest',
+205 silly mapToRegistry   type: 'tag' }
+206 silly mapToRegistry uri https://registry.npmjs.org/nan
+207 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+208 verbose request uri https://registry.npmjs.org/bindings
+209 verbose request no auth needed
+210 info attempt registry request try #1 at 3:12:18 PM
+211 http request GET https://registry.npmjs.org/bindings
+212 verbose request uri https://registry.npmjs.org/nan
+213 verbose request no auth needed
+214 info attempt registry request try #1 at 3:12:18 PM
+215 http request GET https://registry.npmjs.org/nan
+216 http 200 https://registry.npmjs.org/bindings
+217 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+217 verbose headers   etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+217 verbose headers   'content-type': 'application/json',
+217 verbose headers   'content-encoding': 'gzip',
+217 verbose headers   'cache-control': 'max-age=300',
+217 verbose headers   'content-length': '3804',
+217 verbose headers   'accept-ranges': 'bytes',
+217 verbose headers   date: 'Sat, 27 Aug 2016 06:12:19 GMT',
+217 verbose headers   via: '1.1 varnish',
+217 verbose headers   age: '53',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'x-served-by': 'cache-nrt6131-NRT',
+217 verbose headers   'x-cache': 'HIT',
+217 verbose headers   'x-cache-hits': '1',
+217 verbose headers   'x-timer': 'S1472278339.191148,VS0,VE0',
+217 verbose headers   vary: 'Accept-Encoding' }
+218 silly get cb [ 200,
+218 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+218 silly get     etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+218 silly get     'content-type': 'application/json',
+218 silly get     'content-encoding': 'gzip',
+218 silly get     'cache-control': 'max-age=300',
+218 silly get     'content-length': '3804',
+218 silly get     'accept-ranges': 'bytes',
+218 silly get     date: 'Sat, 27 Aug 2016 06:12:19 GMT',
+218 silly get     via: '1.1 varnish',
+218 silly get     age: '53',
+218 silly get     connection: 'keep-alive',
+218 silly get     'x-served-by': 'cache-nrt6131-NRT',
+218 silly get     'x-cache': 'HIT',
+218 silly get     'x-cache-hits': '1',
+218 silly get     'x-timer': 'S1472278339.191148,VS0,VE0',
+218 silly get     vary: 'Accept-Encoding' } ]
+219 verbose get saving bindings to C:\Users\k_sir\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+220 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+221 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: true }
+222 silly addNameRange versions [ 'bindings',
+222 silly addNameRange   [ '0.0.1',
+222 silly addNameRange     '0.1.0',
+222 silly addNameRange     '0.1.1',
+222 silly addNameRange     '0.2.0',
+222 silly addNameRange     '0.2.1',
+222 silly addNameRange     '0.2.2',
+222 silly addNameRange     '0.2.3',
+222 silly addNameRange     '0.2.4',
+222 silly addNameRange     '0.3.0',
+222 silly addNameRange     '0.4.0',
+222 silly addNameRange     '1.0.0',
+222 silly addNameRange     '1.1.0',
+222 silly addNameRange     '1.1.1',
+222 silly addNameRange     '1.2.0',
+222 silly addNameRange     '1.2.1' ] ]
+223 silly addNamed bindings@1.2.1
+224 verbose addNamed "1.2.1" is a plain semver version for bindings
+225 silly mapToRegistry name bindings
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry data Result {
+228 silly mapToRegistry   raw: 'bindings',
+228 silly mapToRegistry   scope: null,
+228 silly mapToRegistry   name: 'bindings',
+228 silly mapToRegistry   rawSpec: '',
+228 silly mapToRegistry   spec: 'latest',
+228 silly mapToRegistry   type: 'tag' }
+229 silly mapToRegistry uri https://registry.npmjs.org/bindings
+230 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+231 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+231 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+232 info retry fetch attempt 1 at 3:12:19 PM
+233 info attempt registry request try #1 at 3:12:19 PM
+234 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+235 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+236 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+237 verbose addTmpTarball C:\Users\k_sir\AppData\Local\Temp\npm-9432-b7010514\registry.npmjs.org\bindings\-\bindings-1.2.1.tgz not in flight; adding
+238 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+239 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+240 silly cache afterAdd bindings@1.2.1
+241 verbose afterAdd C:\Users\k_sir\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+242 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+243 verbose afterAdd C:\Users\k_sir\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+244 http 200 https://registry.npmjs.org/nan
+245 verbose headers { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+245 verbose headers   etag: '"NAY6YRKIZAXUCU18M1YHIEA2"',
+245 verbose headers   'content-type': 'application/json',
+245 verbose headers   'content-encoding': 'gzip',
+245 verbose headers   'cache-control': 'max-age=300',
+245 verbose headers   'content-length': '17135',
+245 verbose headers   'accept-ranges': 'bytes',
+245 verbose headers   date: 'Sat, 27 Aug 2016 06:12:19 GMT',
+245 verbose headers   via: '1.1 varnish',
+245 verbose headers   age: '283',
+245 verbose headers   connection: 'keep-alive',
+245 verbose headers   'x-served-by': 'cache-nrt6124-NRT',
+245 verbose headers   'x-cache': 'HIT',
+245 verbose headers   'x-cache-hits': '3',
+245 verbose headers   'x-timer': 'S1472278339.296320,VS0,VE0',
+245 verbose headers   vary: 'Accept-Encoding' }
+246 silly get cb [ 200,
+246 silly get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+246 silly get     etag: '"NAY6YRKIZAXUCU18M1YHIEA2"',
+246 silly get     'content-type': 'application/json',
+246 silly get     'content-encoding': 'gzip',
+246 silly get     'cache-control': 'max-age=300',
+246 silly get     'content-length': '17135',
+246 silly get     'accept-ranges': 'bytes',
+246 silly get     date: 'Sat, 27 Aug 2016 06:12:19 GMT',
+246 silly get     via: '1.1 varnish',
+246 silly get     age: '283',
+246 silly get     connection: 'keep-alive',
+246 silly get     'x-served-by': 'cache-nrt6124-NRT',
+246 silly get     'x-cache': 'HIT',
+246 silly get     'x-cache-hits': '3',
+246 silly get     'x-timer': 'S1472278339.296320,VS0,VE0',
+246 silly get     vary: 'Accept-Encoding' } ]
+247 verbose get saving nan to C:\Users\k_sir\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+248 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+249 silly addNameRange number 2 { name: 'nan', range: '>=2.3.2 <2.4.0', hasData: true }
+250 silly addNameRange versions [ 'nan',
+250 silly addNameRange   [ '0.3.0-wip',
+250 silly addNameRange     '0.3.0-wip2',
+250 silly addNameRange     '0.3.0',
+250 silly addNameRange     '0.3.1',
+250 silly addNameRange     '0.3.2',
+250 silly addNameRange     '0.4.0',
+250 silly addNameRange     '0.4.1',
+250 silly addNameRange     '0.4.2',
+250 silly addNameRange     '0.4.3',
+250 silly addNameRange     '0.4.4',
+250 silly addNameRange     '0.5.0',
+250 silly addNameRange     '0.5.1',
+250 silly addNameRange     '0.5.2',
+250 silly addNameRange     '0.6.0',
+250 silly addNameRange     '0.7.0',
+250 silly addNameRange     '0.7.1',
+250 silly addNameRange     '0.8.0',
+250 silly addNameRange     '1.0.0',
+250 silly addNameRange     '1.1.0',
+250 silly addNameRange     '1.1.1',
+250 silly addNameRange     '1.1.2',
+250 silly addNameRange     '1.2.0',
+250 silly addNameRange     '1.3.0',
+250 silly addNameRange     '1.4.0',
+250 silly addNameRange     '1.4.1',
+250 silly addNameRange     '1.5.0',
+250 silly addNameRange     '1.4.2',
+250 silly addNameRange     '1.4.3',
+250 silly addNameRange     '1.5.1',
+250 silly addNameRange     '1.5.2',
+250 silly addNameRange     '1.6.0',
+250 silly addNameRange     '1.5.3',
+250 silly addNameRange     '1.6.1',
+250 silly addNameRange     '1.6.2',
+250 silly addNameRange     '1.7.0',
+250 silly addNameRange     '1.8.0',
+250 silly addNameRange     '1.8.1',
+250 silly addNameRange     '1.8.2',
+250 silly addNameRange     '1.8.3',
+250 silly addNameRange     '1.8.4',
+250 silly addNameRange     '1.9.0',
+250 silly addNameRange     '2.0.0',
+250 silly addNameRange     '2.0.1',
+250 silly addNameRange     '2.0.2',
+250 silly addNameRange     '2.0.3',
+250 silly addNameRange     '2.0.4',
+250 silly addNameRange     '2.0.5',
+250 silly addNameRange     '2.0.6',
+250 silly addNameRange     '2.0.7',
+250 silly addNameRange     '2.0.8',
+250 silly addNameRange     '2.0.9',
+250 silly addNameRange     '2.1.0',
+250 silly addNameRange     '2.2.0',
+250 silly addNameRange     '2.2.1',
+250 silly addNameRange     '2.3.0',
+250 silly addNameRange     '2.3.1',
+250 silly addNameRange     '2.3.2',
+250 silly addNameRange     '2.3.3',
+250 silly addNameRange     '2.3.4',
+250 silly addNameRange     '2.3.5',
+250 silly addNameRange     '2.4.0' ] ]
+251 silly addNamed nan@2.3.5
+252 verbose addNamed "2.3.5" is a plain semver version for nan
+253 silly mapToRegistry name nan
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'nan',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   name: 'nan',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://registry.npmjs.org/nan
+258 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.3.5.tgz not in flight; adding
+259 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+259 verbose addRemoteTarball   '822a0dc266290ce4cd3a12282ca3e7e364668a08' ]
+260 info retry fetch attempt 1 at 3:12:19 PM
+261 info attempt registry request try #1 at 3:12:19 PM
+262 http fetch GET https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+263 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.3.5.tgz
+264 silly fetchAndShaCheck shasum 822a0dc266290ce4cd3a12282ca3e7e364668a08
+265 verbose addTmpTarball C:\Users\k_sir\AppData\Local\Temp\npm-9432-b7010514\registry.npmjs.org\nan\-\nan-2.3.5.tgz not in flight; adding
+266 verbose addTmpTarball already have metadata; skipping unpack for nan@2.3.5
+267 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+268 silly cache afterAdd nan@2.3.5
+269 verbose afterAdd C:\Users\k_sir\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json not in flight; writing
+270 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+271 verbose afterAdd C:\Users\k_sir\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json written
+272 silly install resolved [ { name: 'bindings',
+272 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+272 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+272 silly install resolved     version: '1.2.1',
+272 silly install resolved     author:
+272 silly install resolved      { name: 'Nathan Rajlich',
+272 silly install resolved        email: 'nathan@tootallnate.net',
+272 silly install resolved        url: 'http://tootallnate.net' },
+272 silly install resolved     repository:
+272 silly install resolved      { type: 'git',
+272 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+272 silly install resolved     main: './bindings.js',
+272 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+272 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+272 silly install resolved     license: 'MIT',
+272 silly install resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+272 silly install resolved     _id: 'bindings@1.2.1',
+272 silly install resolved     scripts: {},
+272 silly install resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+272 silly install resolved     _from: 'bindings@>=1.2.1 <1.3.0',
+272 silly install resolved     _npmVersion: '1.4.14',
+272 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+272 silly install resolved     maintainers: [ [Object], [Object] ],
+272 silly install resolved     dist:
+272 silly install resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+272 silly install resolved        tarball: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+272 silly install resolved     directories: {},
+272 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+272 silly install resolved   { name: 'nan',
+272 silly install resolved     version: '2.3.5',
+272 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility',
+272 silly install resolved     main: 'include_dirs.js',
+272 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+272 silly install resolved     scripts:
+272 silly install resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+272 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+272 silly install resolved        docs: 'doc/.build.sh' },
+272 silly install resolved     contributors:
+272 silly install resolved      [ [Object],
+272 silly install resolved        [Object],
+272 silly install resolved        [Object],
+272 silly install resolved        [Object],
+272 silly install resolved        [Object],
+272 silly install resolved        [Object],
+272 silly install resolved        [Object] ],
+272 silly install resolved     devDependencies:
+272 silly install resolved      { bindings: '~1.2.1',
+272 silly install resolved        commander: '^2.8.1',
+272 silly install resolved        glob: '^5.0.14',
+272 silly install resolved        'node-gyp': '~3.0.1',
+272 silly install resolved        tap: '~0.7.1',
+272 silly install resolved        xtend: '~4.0.0' },
+272 silly install resolved     license: 'MIT',
+272 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+272 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+272 silly install resolved     _id: 'nan@2.3.5',
+272 silly install resolved     _shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+272 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+272 silly install resolved     _from: 'nan@>=2.3.2 <2.4.0',
+272 silly install resolved     _npmVersion: '3.3.6',
+272 silly install resolved     _nodeVersion: '5.0.0',
+272 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+272 silly install resolved     dist:
+272 silly install resolved      { shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+272 silly install resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz' },
+272 silly install resolved     maintainers: [ [Object], [Object] ],
+272 silly install resolved     _npmOperationalInternal:
+272 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+272 silly install resolved        tmp: 'tmp/nan-2.3.5.tgz_1464707164994_0.4295874561648816' },
+272 silly install resolved     directories: {} } ]
+273 info install bindings@1.2.1 into D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+274 info install nan@2.3.5 into D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+275 info installOne bindings@1.2.1
+276 verbose installOne of bindings to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio not in flight; installing
+277 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+278 info installOne nan@2.3.5
+279 verbose installOne of nan to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio not in flight; installing
+280 verbose correctMkdir C:\Users\k_sir\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+281 verbose lock using C:\Users\k_sir\AppData\Roaming\npm-cache\_locks\bindings-ce95c6a4cdc80b95.lock for D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+282 verbose lock using C:\Users\k_sir\AppData\Roaming\npm-cache\_locks\nan-01de7dab6252e8eb.lock for D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+283 silly install write writing bindings 1.2.1 to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+284 silly install write writing nan 2.3.5 to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+285 verbose unbuild node_modules\pigpio\node_modules\bindings
+286 verbose unbuild node_modules\pigpio\node_modules\nan
+287 silly gentlyRm D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings is being purged from base D:\Dropbox\MyProjects\PiBot\codes\lr_motor
+288 verbose gentlyRm don't care about contents; nuking D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+289 verbose tar unpack C:\Users\k_sir\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+290 verbose tar unpacking to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+291 silly gentlyRm D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings is being purged
+292 verbose gentlyRm don't care about contents; nuking D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+293 silly gentlyRm D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan is being purged from base D:\Dropbox\MyProjects\PiBot\codes\lr_motor
+294 verbose gentlyRm don't care about contents; nuking D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+295 silly gunzTarPerm modes [ '777', '666' ]
+296 verbose tar unpack C:\Users\k_sir\AppData\Roaming\npm-cache\nan\2.3.5\package.tgz
+297 verbose tar unpacking to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+298 silly gentlyRm D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan is being purged
+299 verbose gentlyRm don't care about contents; nuking D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+300 silly gunzTarPerm modes [ '777', '666' ]
+301 silly gunzTarPerm extractEntry package.json
+302 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+303 silly gunzTarPerm extractEntry package.json
+304 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+305 silly gunzTarPerm extractEntry README.md
+306 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+307 silly gunzTarPerm extractEntry bindings.js
+308 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+309 silly gunzTarPerm extractEntry README.md
+310 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+311 silly gunzTarPerm extractEntry include_dirs.js
+312 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+313 silly gunzTarPerm extractEntry nan_converters.h
+314 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+315 silly gunzTarPerm extractEntry LICENSE.md
+316 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+317 silly gunzTarPerm extractEntry doc/node_misc.md
+318 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+319 silly gunzTarPerm extractEntry doc/asyncworker.md
+320 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+321 verbose write writing to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings\package.json
+322 silly gunzTarPerm extractEntry doc/callback.md
+323 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+324 silly gunzTarPerm extractEntry doc/converters.md
+325 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+326 info preinstall bindings@1.2.1
+327 verbose readDependencies loading dependencies from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings\package.json
+328 verbose readDependencies loading dependencies from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings\package.json
+329 silly gunzTarPerm extractEntry doc/errors.md
+330 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+331 silly gunzTarPerm extractEntry doc/maybe_types.md
+332 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+333 silly install resolved []
+334 verbose about to build D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+335 info build D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+336 info linkStuff bindings@1.2.1
+337 silly linkStuff bindings@1.2.1 has D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules as its parent node_modules
+338 silly gunzTarPerm extractEntry doc/methods.md
+339 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+340 silly gunzTarPerm extractEntry doc/new.md
+341 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+342 verbose linkBins bindings@1.2.1
+343 verbose linkMans bindings@1.2.1
+344 verbose rebuildBundles bindings@1.2.1
+345 info install bindings@1.2.1
+346 info postinstall bindings@1.2.1
+347 silly gunzTarPerm extractEntry doc/buffers.md
+348 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+349 silly gunzTarPerm extractEntry doc/object_wrappers.md
+350 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+351 verbose unlock done using C:\Users\k_sir\AppData\Roaming\npm-cache\_locks\bindings-ce95c6a4cdc80b95.lock for D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\bindings
+352 silly gunzTarPerm extractEntry doc/persistent.md
+353 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+354 silly gunzTarPerm extractEntry doc/scopes.md
+355 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+356 silly gunzTarPerm extractEntry doc/script.md
+357 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+358 silly gunzTarPerm extractEntry doc/string_bytes.md
+359 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+360 silly gunzTarPerm extractEntry doc/v8_internals.md
+361 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+362 silly gunzTarPerm extractEntry doc/v8_misc.md
+363 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+364 silly gunzTarPerm extractEntry nan.h
+365 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+366 silly gunzTarPerm extractEntry nan_callbacks.h
+367 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+368 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+369 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+370 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+371 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+372 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+373 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+374 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+375 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+376 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+377 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+378 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+379 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+380 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+381 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+382 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+383 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+384 silly gunzTarPerm extractEntry nan_new.h
+385 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+386 silly gunzTarPerm extractEntry nan_object_wrap.h
+387 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+388 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+389 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+390 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+391 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+392 silly gunzTarPerm extractEntry nan_string_bytes.h
+393 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+394 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+395 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+396 silly gunzTarPerm extractEntry nan_weak.h
+397 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+398 silly gunzTarPerm extractEntry CHANGELOG.md
+399 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+400 silly gunzTarPerm extractEntry tools/package.json
+401 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+402 silly gunzTarPerm extractEntry tools/README.md
+403 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+404 silly gunzTarPerm extractEntry tools/1to2.js
+405 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+406 verbose write writing to D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan\package.json
+407 info preinstall nan@2.3.5
+408 verbose readDependencies loading dependencies from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan\package.json
+409 verbose readDependencies loading dependencies from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan\package.json
+410 silly install resolved []
+411 verbose about to build D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+412 info build D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+413 info linkStuff nan@2.3.5
+414 silly linkStuff nan@2.3.5 has D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules as its parent node_modules
+415 verbose linkBins nan@2.3.5
+416 verbose linkMans nan@2.3.5
+417 verbose rebuildBundles nan@2.3.5
+418 info install nan@2.3.5
+419 info postinstall nan@2.3.5
+420 verbose unlock done using C:\Users\k_sir\AppData\Roaming\npm-cache\_locks\nan-01de7dab6252e8eb.lock for D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio\node_modules\nan
+421 verbose about to build D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+422 info build D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+423 info linkStuff pigpio@0.3.4
+424 silly linkStuff pigpio@0.3.4 has D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules as its parent node_modules
+425 verbose linkBins pigpio@0.3.4
+426 verbose linkMans pigpio@0.3.4
+427 verbose rebuildBundles pigpio@0.3.4
+428 verbose rebuildBundles [ 'bindings', 'nan' ]
+429 info install pigpio@0.3.4
+430 verbose unsafe-perm in lifecycle true
+431 info pigpio@0.3.4 Failed to exec install script
+432 verbose unlock done using C:\Users\k_sir\AppData\Roaming\npm-cache\_locks\pigpio-a02031a627f779ba.lock for D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+433 verbose stack Error: pigpio@0.3.4 install: `node-gyp rebuild`
+433 verbose stack Exit status 1
+433 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+433 verbose stack     at emitTwo (events.js:87:13)
+433 verbose stack     at EventEmitter.emit (events.js:172:7)
+433 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+433 verbose stack     at emitTwo (events.js:87:13)
+433 verbose stack     at ChildProcess.emit (events.js:172:7)
+433 verbose stack     at maybeClose (internal/child_process.js:827:16)
+433 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+434 verbose pkgid pigpio@0.3.4
+435 verbose cwd D:\Dropbox\MyProjects\PiBot\codes\lr_motor
+436 error Windows_NT 10.0.14393
+437 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "pigpio" "--save"
+438 error node v4.4.7
+439 error npm  v2.15.8
+440 error code ELIFECYCLE
+441 error pigpio@0.3.4 install: `node-gyp rebuild`
+441 error Exit status 1
+442 error Failed at the pigpio@0.3.4 install script 'node-gyp rebuild'.
+442 error This is most likely a problem with the pigpio package,
+442 error not with npm itself.
+442 error Tell the author that this fails on your system:
+442 error     node-gyp rebuild
+442 error You can get information on how to open an issue for this project with:
+442 error     npm bugs pigpio
+442 error Or if that isn't available, you can get their info via:
+442 error
+442 error     npm owner ls pigpio
+442 error There is likely additional logging output above.
+443 verbose exit [ 1, true ]
+444 verbose unbuild node_modules\pigpio
+445 info preuninstall pigpio@0.3.4
+446 info uninstall pigpio@0.3.4
+447 verbose unbuild rmStuff pigpio@0.3.4 from D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules
+448 info postuninstall pigpio@0.3.4
+449 silly gentlyRm D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio is being purged from base D:\Dropbox\MyProjects\PiBot\codes\lr_motor
+450 verbose gentlyRm don't care about contents; nuking D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+451 silly vacuum-fs purging D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules\pigpio
+452 silly vacuum-fs removing D:\Dropbox\MyProjects\PiBot\codes\lr_motor\node_modules
+453 silly vacuum-fs finished vacuuming up to D:\Dropbox\MyProjects\PiBot\codes\lr_motor
