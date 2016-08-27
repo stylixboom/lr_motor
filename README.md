@@ -19,10 +19,24 @@ This experiment support two different motor drivers.
 
 Node:
 - TB6612FNG is more efficient, but more expansive (10$), and you will need a solder.
+```
+TB6612FNG
+Ref: http://www.robotshop.com/media/files/PDF/Datasheet%20713.pdf
+Truth table
+Input                           Output
+IN1     IN2     PWM     STBY    OUT1    OUT2    Mode
+H       H       H/L     H       L       L       Short brake
+L       H       H       H       L       H       CCW
+L       H       L       H       L       L       Short brake
+H       L       H       H       H       L       CW
+H       L       L       H       L       L       Short brake
+L       L       H       H       OFF(High ohm)   Stop
+H/L     H/L     H/L     L       OFF(High ohm)   Standby
+```
 - L293D is much cheaper ($0.6) and easier to be used with a breadboard.
 
 Wiring diagram for TB6612FNG
-[![Wiring diagram for TB6612FNG](wiring_diagram.png)]
+[Wiring diagram for TB6612FNG](wiring_diagram.png)
 
 ## How to run
 `$ sudo node app.js`
