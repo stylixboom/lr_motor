@@ -34,10 +34,36 @@ L       L       H       H       OFF(High ohm)   Stop
 H/L     H/L     H/L     L       OFF(High ohm)   Standby
 ```
 - L293D is much cheaper ($0.6) and easier to be used with a breadboard.
+```
+L293D
+Ref: http://www.robotplatform.com/howto/L293/motor_driver_1.html
+Truth table
+Input                   Function
+PWM     IN1     IN2    
+H       H       L       Reverse
+H       L       H       Forward
+H       H       H       Stop
+H       L       L       Stop
+L       X       X       Stop
+```
 
+# Running with TB6612FNG
 Wiring diagram for TB6612FNG
+<<<<<<< HEAD
+[![Wiring diagram for TB6612FNG](wiring_diagram_TB6612FNG.png)]
+=======
 [Wiring diagram for TB6612FNG](wiring_diagram.png)
+>>>>>>> 07233bbca378aa98196c7fa73b137b5f9efd1163
 
 ## How to run
-`$ sudo node app.js`
+`$ sudo node app_t.js`
+
+# Running with L293D
+
+Wiring diagram for L293D
+[![Wiring diagram for L293D](wiring_diagram_L293D.png)]
+
+## How to run
+`$ sudo node app_l.js`
+
 Node: 'sudo' is needed if you are running as a different user, not root.
