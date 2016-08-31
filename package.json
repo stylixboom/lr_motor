@@ -4,6 +4,7 @@
   "description": "Left-right motor control with Node.js on a GPIO for the Raspberry Pi",
   "main": "app.js",
   "dependencies": {
+    "keypress": "^0.2.1",
     "pigpio": "^0.3.4"
   },
   "devDependencies": {},
