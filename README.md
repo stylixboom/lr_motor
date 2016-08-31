@@ -1,10 +1,13 @@
-# lr_motor
+lr_motor
+========
+
 Left-right motor control with Node.js on a GPIO of the Raspberry Pi.
 
-[![LR-Motor control](control.jpg)](https://youtu.be/_WbnUgH4qKM "LR-Motor control")
+[![LR-Motor control](https://raw.githubusercontent.com/stylixboom/lr_motor/master/control.jpg)](https://youtu.be/_WbnUgH4qKM "LR-Motor control")
+[![RC car control](control.jpg)](coming son)
 
 This project is to learn how to control dual-motor (left-right) by using Raspberry Pi.
-THe code provided here is written in Node.js, which require a package of
+The code provided here is written in Node.js, which require a package of
 - 'pigpio' is to access GPIO port on the Raspberry Pi.
 - 'keypress' is to listen to the keyboard input of the Arrow-key (up-down-left-right).
 
@@ -47,16 +50,18 @@ H       L       L       Stop
 L       X       X       Stop
 ```
 
-# Running with TB6612FNG
+Running with TB6612FNG
+--------
+
 Wiring diagram for TB6612FNG
-![Wiring diagram for TB6612FNG](wiring_diagram_TB6612FNG.PNG)
+![Wiring diagram for TB6612FNG](https://raw.githubusercontent.com/stylixboom/lr_motor/master/wiring_diagram_TB6612FNG.PNG)
 
 ## How to run
 `$ sudo node app_t.js`
 
 # Running with L293D
 Wiring diagram for L293D
-![Wiring diagram for L293D](wiring_diagram_L293D.PNG)
+![Wiring diagram for L293D](https://raw.githubusercontent.com/stylixboom/lr_motor/master/wiring_diagram_L293D.PNG)
 
 ## How to run
 `$ sudo node app_l.js`
