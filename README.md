@@ -4,7 +4,8 @@ lr_motor
 Left-right motor control with Node.js on a GPIO of the Raspberry Pi.
 
 [![LR-Motor control](https://raw.githubusercontent.com/stylixboom/lr_motor/master/control.jpg)](https://youtu.be/_WbnUgH4qKM "LR-Motor control")
-[![RC car control](rc_control.jpg)](coming son)
+
+[![RC toy car control](https://raw.githubusercontent.com/stylixboom/lr_motor/master/rc_toy_car_control.jpg)](https://youtu.be/3CBIulryX4M "RC toy car control")
 
 This project is to learn how to control dual-motor (left-right) by using Raspberry Pi.
 The code provided here is written in Node.js, which require a package of
