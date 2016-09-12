@@ -3,6 +3,11 @@ lr_motor
 
 Left-right motor control with Node.js on a GPIO of the Raspberry Pi.
 
+
+*Example of the application that uses this code*
+----
+- Skybot - Controlling a bot over the internet - https://github.com/stylixboom/skybot
+
 [![LR-Motor control](https://raw.githubusercontent.com/stylixboom/lr_motor/master/control.jpg)](https://youtu.be/_WbnUgH4qKM "LR-Motor control")
 
 [![RC toy car control](https://raw.githubusercontent.com/stylixboom/lr_motor/master/rc_toy_car_control.jpg)](https://youtu.be/3CBIulryX4M "RC toy car control")
